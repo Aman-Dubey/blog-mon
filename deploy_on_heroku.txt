@@ -1,0 +1,8 @@
+sudo apt install git
+git init
+git config --global user.user "name"
+git config --global user.email "email"
+sudo snap install --classic heroku
+heroku login
+heroku git:remote -a appname
+git push heroku master
